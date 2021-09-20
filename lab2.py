@@ -18,4 +18,6 @@ while bottom <= round(t, 1) <= top:
     t += h
 
 plt.plot(X_points, Y_points)
+plt.xlabel('X')
+plt.ylabel('Y')
 plt.show()
